@@ -3,7 +3,7 @@ Siguiendo las directrices de este [repositorio(https://github.com/daviniadelaros
 
 ### Resources
 He utilizado las siguientes páginas web para realizar el ejercicio:
--  [flaticon(https://www.flaticon.es/)] para los iconos de github y linkedin.
--  [Photopea(https://www.photopea.com/)] para editar los iconos.
--  [1001freefonts(https://www.1001freefonts.com/)] para la fuente utilizada en los títulos.
--  [Esta(https://www.jeyausten.com/)] página web como inspiración para el diseño.
+-  [flaticon](https://www.flaticon.es/) para los iconos de github y linkedin.
+-  [Photopea](https://www.photopea.com/) para editar los iconos.
+-  [1001freefonts](https://www.1001freefonts.com/) para la fuente utilizada en los títulos.
+-  [Esta](https://www.jeyausten.com/) página web como inspiración para el diseño.
