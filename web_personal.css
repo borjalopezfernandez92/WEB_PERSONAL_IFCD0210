@@ -1,9 +1,11 @@
 body {
     background-color: black;
     color: #ebebeb;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 
 .no_bullets{
@@ -13,6 +15,9 @@ body {
 .ul_hor{
     display: flex;
     flex-direction: row;
+    padding-right: 10px;
+    padding: 0;
+    gap: 10px;
 }
 
 li{
@@ -27,8 +32,29 @@ a:hover{
     color: #48CFCB;
 }
 
-h1,h2{
+h1{
+    margin: 0;
+    padding: 25px;
+    padding-bottom: 5px;
+}
+h1,h2,h3,h4{
     font-family: AlbertText-Bold;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    margin: 0;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+dl{
+    padding: 0;
+    margin: 0;
 }
 
 @font-face{
@@ -38,6 +64,34 @@ h1,h2{
 
 .main_title h2{
     font-size: 80px;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.main_title{
+    margin-bottom: 100px;
+}
+
+.main_port h2{
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.port_cont{
+    display:flex;
+    flex-direction: row;
+    padding-left: 140px;
+}
+
+.work1,.work2{
+    padding: 10px;
 }
 
 nav{
@@ -47,7 +101,71 @@ nav{
 }
 
 form{
+    position: relative;
+    left: 10%;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     max-width:500px;
+}
+
+footer{
+    position: absolute;
+    top:100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#bio_main_cont{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#experience_cont,#lang_cont{
+    width: 400px;
+    height: 400px;
+}
+
+sub{
+    color: #a7a7a7;
+}
+
+.button{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    height: 25px;
+    margin-top: 35px;
+    border: none;
+    color: white;
+    background-color: rgb(100, 100, 100);
+}
+
+.button:hover{
+    background-color: #48CFCB;
+    color: black;
+}
+
+.intro{
+    position: relative;
+    left: 10%;
+}
+
+.shadow img{
+    transition: .5s ease;
+}
+
+.shadow img:hover{
+    box-shadow:
+    1px 1px #48CFCB,
+    2px 2px #48CFCB,
+    3px 3px #48CFCB,
+    4px 4px #48CFCB,
+    5px 5px #48CFCB,
+    6px 6px #48CFCB;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
 }
