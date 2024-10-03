@@ -1,5 +1,5 @@
 # Ejercicio Web Personal
-Siguiendo las directrices de este [repositorio(https://github.com/daviniadelarosa/CAS-TRAINING_IFCD0210/blob/main/teoria/clase3/ejercicio-web-personal.md)] en Github he decidido crear una página web que funcione como currículum y pequeña presentación personal enfocada al ámbito laboral.
+Siguiendo las directrices de este [repositorio](https://github.com/daviniadelarosa/CAS-TRAINING_IFCD0210/blob/main/teoria/clase3/ejercicio-web-personal.md) en Github he decidido crear una página web que funcione como currículum y pequeña presentación personal enfocada al ámbito laboral.
 
 ### Resources
 He utilizado las siguientes páginas web para realizar el ejercicio:
