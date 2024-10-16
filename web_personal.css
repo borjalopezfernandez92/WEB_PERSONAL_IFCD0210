@@ -169,3 +169,9 @@ sub{
     transform: translateX(-3px);
     transition: .5s ease;
 }
+
+#message{
+    font-size: smaller;
+    color: #cf4848;
+    text-align: center;
+}
